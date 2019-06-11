@@ -1,0 +1,9 @@
+language: rust
+rust:
+  - stable
+  - beta
+  - nightly
+cache: cargo
+script:
+  - cargo build --verbose --all --all-targets --color=auto
+  - cargo test --verbose --all-features --color=auto

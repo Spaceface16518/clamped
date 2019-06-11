@@ -1,0 +1,14 @@
+[package]
+name = "clamped"
+version = "0.1.0"
+authors = ["Spaceface16518"]
+edition = "2018"
+
+[features]
+default = ["clamp_trait"]
+
+inline_always = []
+
+clamp_macro = []
+clamp_fn = []
+clamp_trait = []
