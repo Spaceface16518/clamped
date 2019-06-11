@@ -8,7 +8,7 @@ license = "MIT"
 
 homepage = "https://github.com/Spaceface16518/clamped#readme"
 repository = "https://github.com/Spaceface16518/clamped"
-readme = "https://github.com/Spaceface16518/clamped/blob/master/README.md"
+readme = "README.md"
 
 keywords = ["clamp", "saturated", "arithmetic", "math", "bound"]
 categories = ["no-std", "algorithms"]
