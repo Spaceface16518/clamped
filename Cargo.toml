@@ -1,6 +1,6 @@
 [package]
 name = "clamped"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Spaceface16518"]
 edition = "2018"
 description = "Simple clamping of numbers in Rust"
