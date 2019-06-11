@@ -1,5 +1,8 @@
 # Clamped
 
+[![Build Status](https://travis-ci.com/Spaceface16518/clamped.svg?branch=master)](https://travis-ci.com/Spaceface16518/clamped)
+[![Crates.io](https://img.shields.io/crates/v/clamped.svg)](https://crates.io/crates/clamped)
+
 Simple clamping of numbers in Rust
 
 # Usage
