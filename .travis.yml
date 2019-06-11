@@ -7,3 +7,9 @@ cache: cargo
 script:
   - cargo build --verbose --all --all-targets --color=auto
   - cargo test --verbose --all-features --color=auto
+deploy:
+  provider: cargo
+  on:
+    tags: true
+  token:
+    secure: clJSSw9KWMuQYXPHUzpBXyUdcsTVshYv5id/biCk43AxKSuIPUZjvGQvpSNxPjhUgJgkO4gZFeiB2owVZKJtvcPRlgOiVqkpNBPvEf6pdFws3J/VkdpdBxZKbPmqxIcPl8uVcHgyoPq15VyPCHUwgz7Ld7Nou8OatQ9OBxCQhr6lvVJmy8wFAtqMaRakn1nvJHV2far6JtN2ycYWHn5FaUbUlDzZFheVHo1uNx21wldNKfW6VOko17K6a1j6vjotDwqVJgMOZVfbk5SQvckZqrZtF9QbYBE4OOmzsQ7Cjo1r85kFsUjS8uEPLgn39XCOe1ElOTzGbki/90uEWtG1SpVyKCzBQwmFdO2hpcoRpgFjZH+Y6t7dWd3cxdtlStXrLLNCeVLs08dcmMDI8+ekahteKtVcB9ShybimQ3V5EHaSwZx37HVsrkIBB6aIG8t02rb4ZZt0kxohvn9k4G/N7eYRspSi+EZkkrcx/72MR9P7n3sXo+X8W9YiTEKxNpJ7K6MoiwRO2N1uu9rdvBOrwjhYz5U2MWkwctDats75xgGNtsVOaZEwCHLyh4cz7kvR/o6/aFHNMh3svRv+8/xS77JQPaxDQlZ/XrgPL+kwOzVhd2LwFudhy6/G+V3eNcC0pDUHcToPqTYIHc96K5f25DXkdkPqCl1XbB7Lwibt/XM=
