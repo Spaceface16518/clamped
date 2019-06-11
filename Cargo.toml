@@ -3,6 +3,19 @@ name = "clamped"
 version = "0.1.0"
 authors = ["Spaceface16518"]
 edition = "2018"
+description = "Simple clamping of numbers in Rust"
+license = "MIT"
+
+homepage = "https://github.com/Spaceface16518/clamped#readme"
+repository = "https://github.com/Spaceface16518/clamped"
+readme = "https://github.com/Spaceface16518/clamped/blob/master/README.md"
+
+keywords = ["clamp", "saturated", "arithmetic", "math", "bound"]
+categories = ["no-std", "algorithms"]
+
+[badges]
+travis-ci = { repository = "Spaceface16518/clamped", branch = "master" }
+maintenance = { status = "passively-maintained" }
 
 [features]
 default = ["clamp_trait"]
