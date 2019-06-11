@@ -30,3 +30,5 @@ You can use this if you don't want to include any more traits, functions, or oth
 This will force the compiler to inline all calls, essentially allowing functions and trait methods to act like macros with type checking.
 
 **Note:** Only the `clamp_trait` feature is enabled by default (This may change in the future as more features are added)
+
+All features are currently `#[no_std]` compatible, but **this may change in the future!!!**
